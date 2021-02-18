@@ -17,7 +17,7 @@ export default memo(function CHAppFooter() {
             {
               footerLinks.map((item, index) => {
                 return (
-                  <Fragment>
+                  <Fragment key={item.title}>
                     <a className="link-item" href={item.link}>{item.title}</a>
                     <span className="line">|</span>
                   </Fragment>

@@ -43,14 +43,16 @@ export const HeaderLeft = styled.div`
         display: block;
         padding: 0 19px;
         color: #ccc;
-      }
-      :hover a, a.active {
-        background-color: #000;
-        color: #fff;
         text-decoration: none;
       }
 
-      a.active .icon {
+      &:hover a, a.active {
+          background-color: #000;
+          color: #fff;
+          text-decoration: none;
+        }
+
+      .active .icon {
         display: block;
         position: absolute;
         left: 50%;
