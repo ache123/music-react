@@ -9,6 +9,9 @@ import CHTopBanner from './c-cpns/top-banner'
 import HotRecommend from './c-cpns/hot-recommend'
 import NewAlbum from './c-cpns/new-album'
 import RecommendRanking from './c-cpns/recommend-ranking'
+import CHLogin from './c-cpns/login'
+import CHResidentSinger from './c-cpns/resident-singer'
+import CHTopDJ from './c-cpns/top-dj'
 
 
 function CHRecommend(props) {
@@ -22,7 +25,11 @@ function CHRecommend(props) {
           <NewAlbum/>
           <RecommendRanking/>
         </RecommendLeft>
-        <RecommendRight></RecommendRight>
+        <RecommendRight>
+          <CHLogin/>
+          <CHResidentSinger/>
+          <CHTopDJ/>
+        </RecommendRight>
       </Content>
     </RecommendWrapped>
   )

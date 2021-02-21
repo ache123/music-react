@@ -4,6 +4,7 @@ import sprite_01 from '@/assets/img/sprite_01.png'
 
 
 export const HeaderWrapper = styled.div`
+  min-width: 980px;
   height: 75px;
   color: #fff;
   font-size: 14px;

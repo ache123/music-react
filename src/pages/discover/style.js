@@ -5,6 +5,7 @@ export const DiscoverWrapped = styled.div`
     height:30px;
     background-color: #C20C0C;
     border-bottom: 1px solid #a40011;
+    min-width: 980px;
   }
 `
 

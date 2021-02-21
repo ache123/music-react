@@ -7,7 +7,7 @@ import { ThemeHeaderRecWrapped } from './style'
 // 使用props校验的方法
 const ThemeHeaderRec = memo(function(props) {
 
-  const { title, keyword = [] } = props;
+  const { title, keyword } = props;
   return (
     <ThemeHeaderRecWrapped className="sprite_02">
       <div className="left">
@@ -33,7 +33,7 @@ const ThemeHeaderRec = memo(function(props) {
   )
 })
 
-ThemeHeaderRec.PropTypes = {
+ThemeHeaderRec.propTypes = {
   title: PropTypes.string.isRequired,
   keyword: PropTypes.array
 }

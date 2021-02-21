@@ -27,7 +27,7 @@ export default memo(function CHHotRecommend() {
         {
           hotRecommends.map((item, index) => {
             return (
-              <SongsCover info={item} writer={false} className="songsCover"/>
+              <SongsCover info={item} writer={false} className="songsCover" key={item.id}/>
             )
           })
         }

@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import sprite_cover from '@/assets/img/sprite_cover.png'
 
 export const SongsCoverWrapped = styled.div`
   width: 140px;
